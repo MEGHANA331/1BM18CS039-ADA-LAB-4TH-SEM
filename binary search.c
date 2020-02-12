@@ -75,7 +75,7 @@ printf("first time key occured at = %d\nlast time key occured at= %d\ncount is %
 }
 else 
 {
-printf("Invalid\n");
+printf("-1(not present)\n");
 }
 	
 return 0;
