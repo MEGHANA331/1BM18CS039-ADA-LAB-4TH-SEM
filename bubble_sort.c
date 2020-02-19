@@ -47,3 +47,5 @@ bubble_sort(a,n);
   cpu_time_used= ((double) (end - start)) / CLOCKS_PER_SEC;
   printf("time taken is %lf",cpu_time_used);
 }
+
+output:
