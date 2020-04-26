@@ -26,7 +26,7 @@ for( int i=1;i<=n;i++)
 q[i]=0;
 visited[i]=0;
 }
-printf("\n Enter the contents");
+printf("\n Enter graph data in matrix form:");
 for(int i=1;i<=n;i++)
 for(int j=1;j<=n;j++)
 scanf("%d",&a[i][j]);
@@ -39,6 +39,10 @@ for(int i=1;i<=n;i++)
 if(visited[i])
 {
 printf("%d\t",i);
+}
+else
+{
+printf("\n bfs is not possible");
 }
 }
 }
